@@ -1390,11 +1390,11 @@ video {
 }
 
 .list-image-\[url\(\'\/assets\/img\/current\.png\'\)\] {
-  list-style-image: url('/assets/img/current.png');
+  list-style-image: url('../assets/img/current.png');
 }
 
 .list-image-\[url\(\'\/assets\/img\/done\.png\'\)\] {
-  list-style-image: url('/assets/img/done.png');
+  list-style-image: url('../assets/img/done.png');
 }
 
 .appearance-none {
