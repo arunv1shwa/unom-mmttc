@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'campus0': "url('./assets/img/campus0.jpg')",
-        'campus1': "url('./assets/img/campus1.jpg')",
-        'campus2': "url('./assets/img/campus2.jpg')",
-        'campus3': "url('./assets/img/campus3.jpg')",
+        'campus0': "url('/assets/img/campus0.jpg')",
+        'campus1': "url('/assets/img/campus1.jpg')",
+        'campus2': "url('/assets/img/campus2.jpg')",
+        'campus3': "url('/assets/img/campus3.jpg')",
       },
       animation: {
         'move-around': 'move-around 5s ease-in-out infinite',
