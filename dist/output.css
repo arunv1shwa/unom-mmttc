@@ -2300,19 +2300,19 @@ video {
 }
 
 .bg-campus0 {
-  background-image: url('/assets/img/campus0.jpg');
+  background-image: url('../assets/img/campus0.jpg');
 }
 
 .bg-campus1 {
-  background-image: url('/assets/img/campus1.jpg');
+  background-image: url('../assets/img/campus1.jpg');
 }
 
 .bg-campus2 {
-  background-image: url('/assets/img/campus2.jpg');
+  background-image: url('../assets/img/campus2.jpg');
 }
 
 .bg-campus3 {
-  background-image: url('/assets/img/campus3.jpg');
+  background-image: url('../assets/img/campus3.jpg');
 }
 
 .decoration-slice {
