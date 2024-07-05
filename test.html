@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              backgroundImage: {
+                  'terr':"url('./img_ter.jpg')",
+                  'nature':"url('./img_nature.jpg')",
+                  'mountain':"url('./img_mountain.jpg')",
+                  'wood':"url('./img_wood.jpg')",
+            'mountain-2': "url('./copy.jpeg')"
+            }
+
+            },
+          },
+        };
+      </script>
+
+</head>
+<body>
+
+
+    <main class="h-[75vh] border-black border-2 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3713933685904!2d80.24141885340211!3d13.012005216252676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526797fbb0104f%3A0xc8aab9b4085be311!2sB.M.%20Birla%20Planetarium!5e0!3m2!1sen!2sin!4v1720091653721!5m2!1sen!2sin" class="h-[70%] w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="flex h-[30%]" >
+            <div class="flex-grow bg-black font-xl font-bold flex justify-center items-center text-white"> OUR LOCATION <br />& CONTACT </div>
+            <address class="flex-grow-[2] flex justify-start items-center ml-4">
+                university of madras<br />
+                abc,<br/>
+                xyz.<br/> 
+                phone&colon; +9357 547843587<br/>
+                mail&colon; k@rgkle.jerthjk
+            </address>
+
+        </div>
+    </main>
+
+    <!-- <main class="slide min-h-[75vh] bg-terr bg-no-repeat  bg-center bg-cover transition-[background] duration-700 ease-linear bg-fixed">
+        <span class="text-7xl font-bold text-white btn btn-left">&larr;</span>
+        <span class="text-7xl font-bold text-white btn btn-right">&rarr;</span>
+    </main> -->
+    
+
+
+        <!-- <div class="columns-sm gap-5 space-y-5">
+            <div class="relative">
+                <img src="./copy.jpeg" alt="" class="w-full rounded-sm">
+                <div class="absolute bottom-0 m-4 text-white bg-red-400 px-1">
+                    <div>& himalayas</div>
+                </div>
+            </div>
+            <div>
+                <img src="./img_mountain.jpg" alt="" class="w-full aspect-video">
+            </div>
+            <div>
+                <img src="./img_nature.jpg" alt="" class="w-full aspect-video">
+            </div>
+            <div>
+                <img src="./img_ter.jpg" alt="" class="w-full">
+            </div>
+            <div>
+                <img src="./img_wood.jpg" alt="" class="w-full">
+            </div>
+            <div>
+                <img src="./img_mountain.jpg" alt="" class="w-full ">
+            </div>
+            <div>
+                <img src="./img_nature.jpg" alt="" class="w-full ">
+            </div>
+            <div>
+                <img src="./img_ter.jpg" alt="" class="w-full">
+            </div>
+            <div>
+                <img src="./copy.jpeg" alt="" class="w-full ">
+            </div>
+            <div>
+                <img src="./img_wood.jpg" alt="" class="w-full">
+            </div>
+
+        </div> -->
+
+    <!-- <footer style="min-height:25vh; background-color: bisque;" class="bg-blue-400 flex flex-col justify-around p-4">
+        <div class="self-center">QUICK LINK &colon; PAY ONLINE | UNOM | HIJ | KLMNOPQR | STUVWXYZ </div>
+        <address class="self-center text-center">
+            
+            University of Madras<br>
+            xyz,mnp,<br />qrs,tvu - 8483001.
+        </address>
+        
+        <div class="flex justify-between"><span>Made with: HTML, css, js, tailwindcss</span><span class="">Git v 1.2.1</span></div>
+
+    </footer> -->
+    <!-- <script>
+        const imgs=['bg-terr','bg-nature','bg-mountain','bg-wood','bg-mountain-2']
+        let index = 0;
+        const btns = document.querySelectorAll('.btn');
+        let i_show = 0;
+
+        setInterval(()=>{
+            imgs.forEach(element => {
+            if(document.querySelector('.slide').classList.contains(element)){
+                i_show = imgs.indexOf(element)
+            }
+            });
+            document.querySelector('.slide').classList.remove(imgs[i_show]);
+            if(i_show == 4){
+                i_show = -1;
+            }
+            document.querySelector('.slide').classList.add(imgs[++i_show]);
+        },5000)
+
+        btns.forEach(element => {
+            element.addEventListener('click',()=>{
+                if(element.classList.contains('btn-left')){
+
+                    imgs.forEach(element => {
+                        if(document.querySelector('.slide').classList.contains(element)){
+                            index = imgs.indexOf(element)
+                        }
+                    });
+                    document.querySelector('.slide').classList.remove(imgs[index]);
+                    if(index == 0){
+                        index = 5;
+                    }
+                    document.querySelector('.slide').classList.add(imgs[--index])
+                    
+                        
+
+                }else{
+
+
+                    
+
+                    imgs.forEach(element => {
+                        if(document.querySelector('.slide').classList.contains(element)){
+                            index = imgs.indexOf(element)
+                        }
+                    });
+                    document.querySelector('.slide').classList.remove(imgs[index]);
+                    if(index == 4){
+                        index = -1;
+                    }
+                    document.querySelector('.slide').classList.add(imgs[++index]);
+                    
+                }
+            })
+        });
+      </script> -->
+
+      <div class="h-1/2 flex">
+        <div
+          class="flex-grow-[2] basis-0 p-4 flex flex-col justify-around pb-0"
+        >
+          <h2 class="text-2xl flex-grow basis-0 font-semibold">
+            Welcome to the Malaviya Mission Teacher Training Centre.
+          </h2>
+          <p
+            class="text-lg text-justify indent-16 leading-8 font-medium flex-grow basis-0"
+          >
+            The Malaviya Mission Teacher Training Centre (MMTTC) aims to
+            enhance higher education by focusing on teacher development,
+            aligning with the National Education Policy (NEP) 2020. It uses
+            both traditional and innovative teaching methods to prepare
+            faculty for the evolving education sector. The Centre promotes
+            continuous learning, transforming institutions into excellence
+            hubs in teaching, research, and development. NEP 2020 emphasizes
+            motivated, capable faculty, highlighting the need for continuous
+            professional development. The Malaviya Mission restructures
+            existing capacity-building mechanisms to train faculty and staff
+            across higher education institutions, aiming for significant
+            improvements within two years in teaching, research, publication,
+            and institutional development.
+          </p>
+        </div>
+        <aside class="flex-grow basis-0 p-4 pb-0 pl-0">
+          <div class="size-full border-black border-2 rounded-sm">
+            <div
+              class="h-1/5 border-b-2 border-black text-2xl flex justify-center items-center"
+            >
+              Announcements
+            </div>
+            <div class="h-4/5">
+              <ul class="ml-4 p-4 list-outside list-disc text-justify">
+                <li>New site for MMTTC is now available.</li>
+                <li>New site for MMTTC is now available.</li>
+                <li>
+                  New site for MMTTC is now available. Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Non delectus minima
+                  cumque. Illo fuga, est quibusdam ad aperiam ipsa nemo!
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="h-1/2">
+        <div class="flex justify-around items-center h-full text-base">
+          <div
+            class="w-[28%] h-[80%] border-2 border-black text-justify p-4 flex flex-col items-center rounded-sm"
+          >
+            <div>
+              <!-- <img src="./assets/img/vision.png" alt="vision icon" class="w-[96px] h-[96px]"/> -->
+            </div>
+            <div>
+              <!-- Enhancing the quality and excellence of the higher education teaching community by periodically updating knowledge, teaching skills, and technology; promoting critical and innovative thinking; and applying ICT for curricular updates to position India as a global leader in 21st-century higher education. The MMTTCs emphasize this philosophy. -->
+            </div>
+          </div>
+
+          <div
+            class="w-[28%] h-[80%] border-2 border-black text-justify p-1 flex flex-col justify-around items-center rounded-sm"
+          >
+            <div>
+              <!-- <img src="./assets/img/mission.png" alt="mission icon" /> -->
+            </div>
+            <!-- <div>
+              Our mission is to impart required knowledge and skills to the
+              newly recruited and in-service academicians and administrators
+              associated with higher educational institutions to pursue
+              activities with new emphasis related to quality of education,
+              organizational development, community and societal service, as
+              well as basic and applied research endeavours. Under the given
+              scenario of connected world.
+            </div> -->
+          </div>
+          <div
+            class="w-[28%] h-[80%] border-2 border-black text-justify p-2 flex flex-col justify-around items-center rounded-sm"
+          >
+            <div>
+              <!-- <img src="./assets/img/objective.png" alt="objective icon" /> -->
+            </div>
+            <!-- <div>
+              To inculcate right kind of values and societal responses in
+              student community to make them knowledgeable citizens. To impart
+              new teaching skills/tools and teaching technology and values of
+              education to the newly recruited colleges/universities teachers.
+              To update knowledge in cutting edge areas of research of
+              in-service academicians associated with higher educational
+              institutions. To impart training.
+            </div> -->
+          </div>
+        </div>
+      </div>
+</body>
+</html>
