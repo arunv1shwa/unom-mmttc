@@ -568,6 +568,10 @@
     </footer>
     <div id="google_translate_element"></div>
     <script type="text/javascript">
+        if(sessionStorage.getItem('lang')=='ta'){
+      document.querySelector('.lang-eng').classList.remove('underline')
+      document.querySelector('.lang-tamil').classList.add('underline')
+    }
     document.querySelector('.lang-eng').addEventListener('click',()=>{
         let eng = document.querySelector('#google_translate_element select ')
         eng.selectedIndex = '0'
